@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.sinupfragment.SingUpFragment">
+
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"
+        app:cardCornerRadius="10dp"
+        app:strokeWidth="3dp"
+        app:strokeColor="#4C9E05">
+
+        <EditText
+            android:id="@+id/ed_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:textColorHint="@color/black" />
+
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"
+        app:cardCornerRadius="10dp"
+        app:strokeWidth="3dp"
+        app:strokeColor="#4C9E05">
+
+        <EditText
+            android:id="@+id/ed_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/age"
+            android:textColorHint="@color/black" />
+
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"
+        app:cardCornerRadius="10dp"
+        app:strokeWidth="3dp"
+        app:strokeColor="#4C9E05">
+
+    <EditText
+            android:id="@+id/ed_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:textColorHint="@color/black" />
+
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"
+        app:cardCornerRadius="10dp"
+        app:strokeWidth="3dp"
+        app:strokeColor="#4C9E05">
+
+    <EditText
+            android:id="@+id/ed_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:textColorHint="@color/black" />
+
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="15dp"
+        app:cornerRadius="10dp"
+        android:text="@string/save"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:cardCornerRadius="10dp"
+        app:strokeWidth="3dp"
+        app:strokeColor="#4C9E05"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
